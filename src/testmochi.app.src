@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, testmochi,
+ [{description, "testmochi"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'testmochi_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.
